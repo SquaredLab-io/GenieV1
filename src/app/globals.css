@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border p-0 m-0 scroll-smooth;
+  }
+
+  body {
+    @apply text-white bg-black min-h-screen w-full font-sans-ibm-plex;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-blue {
+    @apply bg-gradient-to-r from-pure-cyan to-pure-blue;
+  }
+
+  .bg-gradient-white {
+    @apply bg-gradient-to-r from-white to-off-white;
+  }
+
+  .text-gradient-blue {
+    @apply bg-gradient-to-b text-transparent bg-clip-text from-pure-cyan to-pure-blue;
+  }
+
+  .page-center {
+    @apply flex flex-col gap-6 h-[calc(100vh-62px)];
+  }
+}
+
+/* Scroll bar */
+::-webkit-scrollbar-track {
+}
+/* Handle on hover */
+/*
+::-webkit-scrollbar-thumb:hover {
+  background: #7339fd;
+}*/
+/* width */
+*::-webkit-scrollbar {
+  display: none;
+  /*
+  width: 4px;
+  height: 8px;
+  border-radius: 100px;
+*/
+}
+
+/* Input element */
+/* For chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* For firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
