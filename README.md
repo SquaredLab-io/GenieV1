@@ -4,14 +4,20 @@
     <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Ftwitter.com%2FSquaredLabs_"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fmarginfi"/></a>
 </div>
 
-The genie interface is deployed here - [Genie Interface](https://dev.d1h9zm8svtg3nj.amplifyapp.com/).
+### The demo is deployed at [Genie](https://dev.d1h9zm8svtg3nj.amplifyapp.com/).
 
-Genie is SquaredLabs' decentralized exchange (DEX) designed to facilitate the trading of pools from Potentia without the risk of liquidation.
+Genie is SquaredLabs' decentralized exchange (DEX) designed to facilitate the trading of power pools from Potentia without the risk of liquidation.
 
 Potentia is our novel approach to trade power perpetuals i.e assets with positive powers of $`i`$ where $`i>0`$. Currently Genie supports taking long/short positions on 3 pools 
 - $`WETH^2`$
 - $`WBTC^3`$
 - $`USDC^2`$
+
+Potentia introduces *long/short* positions as fungible assets that can be traded and swapped. Apart from making this a robust system, fungible assets allow the development of other applications to be built on top of Potentia.
+
+To provide an intuitive user experience, we have integrated `Coinbase's Smart Wallet` that uses account-abstraction.
+
+
 
 
 
